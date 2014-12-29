@@ -124,6 +124,8 @@ return array(
 
 		'Way\Generators\GeneratorsServiceProvider',
 		'Barryvdh\Debugbar\ServiceProvider',
+
+		'Leojang\Search\SearchServiceProvider'
 	),
 
 	/*
@@ -190,6 +192,8 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
+
+		'Search'			=> 'Leojang\Facades\Search'
 
 	),
 
